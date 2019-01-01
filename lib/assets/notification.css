@@ -111,6 +111,14 @@ a {
     box-shadow: inset 1px 0 rgba(255, 255, 255, 0.4);
 }
 
+#notification.horizontal #buttons .Accept {
+    background-color: green
+}
+
+#notification.horizontal #buttons .Reject {
+    background-color: rgb(255, 0, 0)
+}
+
 #notification.vertical #buttons {
     width: 100%;
     position: absolute;
