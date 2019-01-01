@@ -140,6 +140,14 @@ a {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
 }
 
+#notification .crossIcon {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
 #notification.double #buttons a {
     height: 40px;
     line-height: 40px;
