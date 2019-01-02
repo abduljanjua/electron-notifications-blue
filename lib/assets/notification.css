@@ -33,9 +33,10 @@ a {
 }
 
 #notification .icon {
-    width: 90px;
+    width: 70px;
     height: 80px;
     float: left;
+    margin-left: 20px;
 }
 
 #notification .icon img {
@@ -140,7 +141,8 @@ a {
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.4);
 }
 
-#notification .crossIcon {
+#notification.double .crossIcon {
+    height: 50px;
     text-decoration: none;
     color: #fff;
     position: absolute;
