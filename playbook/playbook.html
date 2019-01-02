@@ -129,7 +129,7 @@ notification.on('swipedRight', () => {
 const notifier = require('electron-notifications')
 
 const notification = notifier.notify('Calendar', {
-  buttons: ['Dismiss','Snooze', 'Cross'],
+  buttons: ['Dismiss', 'Cross'],
 })
 
 notification.on('buttonClicked', (text, index) => {
