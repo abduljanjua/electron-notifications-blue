@@ -30,7 +30,7 @@
         ]
     },
     "devDependencies": {
-        "electron": "^6.1.7",
+        "electron": "^11.5.0",
         "standard": "^8.0.0"
     },
     "dependencies": {
